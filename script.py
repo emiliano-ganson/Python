@@ -10,7 +10,7 @@ plt.figure(figsize=(10, 6))
 plt.plot(data.index, data['Close'], color='green', linewidth=2)
 
 # Styling
-plt.title('S&P 500 Performance - 2025', fontsize=14)
+plt.title('S&P-500 Performance - 2025', fontsize=14)
 plt.xlabel('Date')
 plt.ylabel('Price (USD)')
 plt.grid(True, linestyle='--', alpha=0.6)
@@ -21,4 +21,5 @@ print("Graph saved as sp500_2025.png")
 
 # 4. SHOW the image on screen
 print("Displaying graph...")
+
 plt.show()
